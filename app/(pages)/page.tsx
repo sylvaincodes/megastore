@@ -1,11 +1,15 @@
 import { Metadata } from "next";
 import { mergeOpenGraph } from "@/lib/mergeOpenGraph";
+import { LayoutOne } from "@/components/layouts/layout-one";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        hello
-    </main>
+
+    <LayoutOne>
+      <main className="flex min-h-screen flex-col items-center justify-between p-24">
+          hello
+      </main>
+    </LayoutOne>
   );
 }
 

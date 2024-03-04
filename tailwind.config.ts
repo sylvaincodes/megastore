@@ -13,7 +13,10 @@ const config = {
   theme: {
     colors:{
         // default colors 
-      gray: colors.gray,
+        bg_gray: '#F5F5F5',
+        border_gray: '#D9D9D9',
+        text_gray: '#666666',
+        gray: colors.gray,
       black: '#121212',
       white: colors.white,
 
@@ -38,9 +41,9 @@ const config = {
       center: true,
       padding: {
         DEFAULT: '0rem',
-        sm: '12rem',
-        md: '12rem',
-        lg: '12rem',
+        sm: '0rem',
+        md: '0rem',
+        lg: '0rem',
         xl: '12rem',
         '2xl': '12rem',
       },
