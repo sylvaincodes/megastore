@@ -15,10 +15,10 @@ export default function Home() {
 
 
 export const metadata: Metadata = {
-  title: 'page d\'acceuil',
+  title: 'Home page',
   description: 'Buy more than you think',
   openGraph: mergeOpenGraph({
-    title: 'page d\'acceuil',
+    title: 'Home page',
     url: '/',
   }),
 }

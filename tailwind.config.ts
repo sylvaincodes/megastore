@@ -2,6 +2,7 @@ import type { Config } from "tailwindcss"
 import  colors  from 'tailwindcss/colors'
 
 const config = {
+  
   darkMode: ["class"],
   content: [
     './pages/**/*.{ts,tsx}',
@@ -13,9 +14,13 @@ const config = {
   theme: {
     colors:{
         // default colors 
+        bg_primary_light: '#F3F9FB',
+        color_icon: '#008ECC',
+        bg_icon: '#F3F9FB',
         bg_gray: '#F5F5F5',
         border_gray: '#D9D9D9',
         text_gray: '#666666',
+        transparent: 'transparent',
         gray: colors.gray,
       black: '#121212',
       white: colors.white,
