@@ -1,0 +1,27 @@
+ [
+    {
+        "id":"1",
+        "name":"groceries"
+    },{
+        "id":"2",
+        "name":"fruits"
+    },{
+        "id":"3",
+        "name":"kitchen"
+    },{
+        "id":"4",
+        "name":"fashion"
+    },{
+        "id": "5",
+        "name":"electronics"
+    },{
+        "id":"6",
+        "name":"beauty"
+    },{
+        "id":"7",
+        "name":"home"
+    },{
+        "id":"8",
+        "name":"sports"
+    }
+]

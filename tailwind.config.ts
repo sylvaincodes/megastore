@@ -15,6 +15,7 @@ const config = {
     colors:{
         // default colors 
         bg_primary_light: '#F3F9FB',
+        bg_primary: '#008ECC',
         color_icon: '#008ECC',
         bg_icon: '#F3F9FB',
         bg_gray: '#F5F5F5',

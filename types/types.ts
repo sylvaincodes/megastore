@@ -7,3 +7,8 @@ export interface Product{
     color: string;
     size: string;
 }
+
+export interface Category {
+    id: string;
+    name: string;
+}
