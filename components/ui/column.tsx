@@ -3,7 +3,7 @@ import React, { ReactPropTypes } from 'react'
 
 export const Column = ({children, classPlus}: {children: React.ReactNode; classPlus?: string;}) => {
   return (
-    <div className={cn('flex flex-col justify-center',classPlus)}>
+    <div className={cn('flex flex-col',classPlus)}>
         {children}
     </div>
   )

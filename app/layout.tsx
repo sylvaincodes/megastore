@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { josefinSans } from "./fonts";
 import {mergeOpenGraph} from '@/lib/mergeOpenGraph'
+import { Providers } from "@/providers";
 
 // setup default seo
 export const metadata: Metadata = {
@@ -49,7 +50,6 @@ export const metadata: Metadata = {
   openGraph:mergeOpenGraph()
 };
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -57,7 +57,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={josefinSans.className}>{children}</body>
-    </html>
+          <body className={josefinSans.className}>
+            <Providers>
+              {children}
+            </Providers>
+          </body>
+      </html>
   );
 }

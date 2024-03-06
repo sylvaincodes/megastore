@@ -1,8 +1,9 @@
+import { cn } from '@/lib/utils';
 import React, { ReactPropTypes } from 'react'
 
-export const Container = ({children}: {children: React.ReactNode}) => {
+export const Container = ({children, classPlus}: {children: React.ReactNode; classPlus?: string;}) => {
   return (
-    <div className='container h-full'>
+    <div className={cn('container h-full', classPlus)}>
         {children}
     </div>
   )

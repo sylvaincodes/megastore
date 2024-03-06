@@ -1,0 +1,27 @@
+[
+    {
+      "id":"1",
+      "name": "galaxy s22 ultra",
+      "price": 329.99,
+      "category": "phones",
+      "color": "white",
+      "size": "8GB|128GB",
+      "images" : ["/images/products/1.png"]
+    },{
+      "id":"1",
+      "name": "galaxy m13",
+      "price": 104.99,
+      "category": "phones",
+      "color": "white",
+      "size": "4GB|64GB",
+      "images" : ["/images/products/2.png"]
+    },{
+      "id":"3",
+      "name": "galaxy m33",
+      "price": 169.99,
+      "category": "phones",
+      "color": "white",
+      "size": "4GB|64GB",
+      "images" : ["/images/products/3.png"]
+    }
+  ]
