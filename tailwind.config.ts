@@ -14,6 +14,7 @@ const config = {
   theme: {
     colors:{
         // default colors 
+        hero_bg: "#212844",
         bg_primary_light: '#F3F9FB',
         bg_primary: '#008ECC',
         color_icon: '#008ECC',
