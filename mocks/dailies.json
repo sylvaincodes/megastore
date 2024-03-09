@@ -1,0 +1,38 @@
+[
+    {
+        "id":"1",
+        "name":"daily essantials",
+        "images" : ["/images/offers/1.svg"],
+        "offer": "UP to 50% OFF"
+    },{
+        "id":"2",
+        "name":"vegitables",
+                "images" : ["/images/offers/2.svg"],
+
+        "offer": "UP to 50% OFF"
+    },{
+        "id":"3",
+        "name":"fruits",
+                "images" : ["/images/offers/3.svg"],
+
+        "offer": "UP to 50% OFF"
+    },{
+        "id":"4",
+        "name":"strowberry",
+                "images" : ["/images/offers/4.svg"],
+
+        "offer": "UP to 50% OFF"
+    },{
+        "id": "5",
+        "name":"mango",
+                "images" : ["/images/offers/5.svg"],
+
+        "offer": "UP to 50% OFF"
+    },{
+        "id":"6",
+        "name":"cherry",
+                "images" : ["/images/offers/6.svg"],
+
+        "offer": "UP to 50% OFF"
+    }
+]

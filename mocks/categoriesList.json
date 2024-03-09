@@ -1,0 +1,31 @@
+[
+    {
+        "id":"1",
+        "name":"mobile",
+        "images": ["/images/categories/1.svg"]
+    },{
+        "id":"2",
+        "name":"costemics",
+        "images": ["/images/categories/2.svg"]
+    },{
+        "id":"3",
+        "name":"electronics",
+        "images": ["/images/categories/3.svg"]
+    },{
+        "id":"4",
+        "name":"furnitures",
+        "images": ["/images/categories/4.svg"]
+    },{
+        "id": "5",
+        "name":"watches",
+        "images": ["/images/categories/5.svg"]
+    },{
+        "id":"6",
+        "name":"decor",
+        "images": ["/images/categories/6.svg"]
+    },{
+        "id":"7",
+        "name":"accessories",
+        "images": ["/images/categories/7.svg"]
+    }
+]

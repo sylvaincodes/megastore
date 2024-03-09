@@ -13,6 +13,7 @@ const config = {
   prefix: "",
   theme: {
     colors:{
+
         // default colors 
         hero_bg: "#212844",
         bg_primary_light: '#F3F9FB',
@@ -23,6 +24,7 @@ const config = {
         border_gray: '#D9D9D9',
         text_gray: '#666666',
         transparent: 'transparent',
+        green: colors.green,
         gray: colors.gray,
       black: '#121212',
       white: colors.white,

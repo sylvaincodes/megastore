@@ -1,0 +1,32 @@
+[
+    {
+        "id":"1",
+        "name":"iphone",
+        "name_bg":"#414141",
+        "icon": ["/images/brands/1.svg"],
+        "product":["/images/brands/1_1.svg"],
+        "images":["/images/brands/1_2.svg"],
+        "text":"Up to 80% OFF",
+        "color":"#494949"
+    }, {
+        "id":"2",
+        "name":"realme",
+        "name_bg":"#F6DE8D",
+        "icon": ["/images/brands/2.svg"],
+        "product":["/images/brands/2_1.svg"],
+        "images":["/images/brands/2_2.svg"],
+        "text":"Up to 80% OFF",
+        "color":"#FFF3CC"
+    },{
+        "id":"3",
+        "name":"xiami",
+        "name_bg":"#FFD1B0  ",
+        "icon": ["/images/brands/3.svg"],
+        "product":["/images/brands/3_1.svg"],
+        "images":["/images/brands/3_2.svg"],
+
+        "text":"Up to 80% OFF",
+        "color":"#FFECDF"
+
+    }
+]

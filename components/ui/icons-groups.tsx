@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { Fragment } from 'react'
 import useCart from '@/hooks/use-cart'
+import { Product } from '@/types/types';
 
 export const IconsGroup = ({openSearch,setOpenSearch,openCart,setOpenCart}: {openSearch: boolean; setOpenSearch: any;openCart: boolean; setOpenCart: any}) => {
 
@@ -11,8 +12,12 @@ export const IconsGroup = ({openSearch,setOpenSearch,openCart,setOpenCart}: {ope
   const totalPrice = cart.items.reduce((total, item) => {
     return total + Number(item.price);
   }, 0);
-  return (
+  
+  const deleteItem = (item: Product) => {
+    cart.removeItem(item.id);
+  };
 
+  return (
 
     <Fragment >
                         <div className='md:hidden flex items-center gap-x-2 border-r 
@@ -50,9 +55,9 @@ export const IconsGroup = ({openSearch,setOpenSearch,openCart,setOpenCart}: {ope
                         </div>
 
                       {/* cart menu  */}
-                      <div className={`border z-0
+                      <div className={`border z-20
                               border-border_gray shadow-lg absolute top-[5.6rem] right-[12rem] 
-                              min-w-[320px] h-fit transition-all ease-[cubic-bezier(.61,.66,0,1.06)] duration-800 ${ openCart ? "visible translate-y-0": "z-0 invisible -translate-y-full"}`}>   
+                              min-w-[320px] h-fit transition-all ease-in duration-800 ${ openCart ? "visible translate-y-0": "z-0 invisible -translate-y-full"}`}>   
                               
                               <div className='bg-bg_gray px-4 py-2'>
                                   <div className='flex gap-x-8 w-full'>
@@ -71,9 +76,11 @@ export const IconsGroup = ({openSearch,setOpenSearch,openCart,setOpenCart}: {ope
                                   </div>
                               </div>
 
-                              <div className='p-4 flex flex-col space-y-8 max-h-[200px] overflow-auto'>
+                              <div className='p-4 flex flex-col space-y-8 max-h-[200px] overflow-auto bg-white'>
                                 
                                 {
+
+                                  cart.items.length > 0 ?
                                   cart.items.map((item, idx) =>{
                                     return <div key={idx} className='flex gap-x-4 bg-white py-4'>
                                     <div>
@@ -91,7 +98,7 @@ export const IconsGroup = ({openSearch,setOpenSearch,openCart,setOpenCart}: {ope
                                             <span>{item.size}</span>
                                           </p>
                                           <p>Qty: 1</p>
-                                          <button className='ms-auto w-full hover:primary-900'>
+                                          <button onClick={ () => deleteItem(item)} className='ms-auto w-full hover:primary-900'>
 
                                           <Trash size={18} color='gray' className="ms-auto " />
                                           </button>
@@ -99,6 +106,10 @@ export const IconsGroup = ({openSearch,setOpenSearch,openCart,setOpenCart}: {ope
                                     </div>
                                 </div> 
                                   })
+
+                                  :
+                                  <p className='text-center'> Click on any product to add here. </p>
+                                  
                                 }
                                 
                                 
@@ -110,7 +121,7 @@ export const IconsGroup = ({openSearch,setOpenSearch,openCart,setOpenCart}: {ope
                                           sub total
                                         </div>
                                         <div className='text-color_gray'>
-                                          $123
+                                          ${totalPrice}
                                         </div>
                                     </div>
                               </div>

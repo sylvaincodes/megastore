@@ -35,19 +35,14 @@ export const Navbar = () => {
                 <Row classPlus='gap-x-16'>
                      
                       <div className='flex gap-x-6 items-center'>
-                        
                         <MobileMenu openMenu={openMenu} setOpenMenu={setOpenMenu} />
-
                       </div>
 
                       <div className='flex items-center justify-end gap-x-8 w-full'>
-                        
                         <SearchItem openSearch={openSearch} setOpenSearch={setOpenSearch} />
                         <IconsGroup openSearch={openSearch} setOpenSearch={setOpenSearch} openCart={openCart} setOpenCart={setOpenCart} />
-
                       </div>
-                    
-
+             
                 </Row>
             </Container>
         </section>
