@@ -7,6 +7,7 @@ import { CartItem } from './components/cart-item';
 import { Summary } from './components/summary';
 import useCart from '@/hooks/use-cart';
 import { mergeOpenGraph } from "@/lib/mergeOpenGraph";
+import { Metadata } from 'next';
 
 export default function Page() {
   const cart = useCart();
