@@ -7,7 +7,6 @@ import { Product } from '@/types/types';
 
 export const IconsGroup = ({openSearch,setOpenSearch,openCart,setOpenCart}: {openSearch: boolean; setOpenSearch: any;openCart: boolean; setOpenCart: any}) => {
 
-
   const cart = useCart();
   const totalPrice = cart.items.reduce((total, item) => {
     return total + Number(item.price);

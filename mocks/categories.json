@@ -1,27 +1,42 @@
  [
     {
         "id":"1",
-        "name":"groceries"
+        "name":"groceries",
+        "images": ["/images/categories/6.svg"]
     },{
         "id":"2",
-        "name":"fruits"
+        "name":"fruits",
+        "images": ["/images/categories/6.svg"]
+
     },{
         "id":"3",
-        "name":"kitchen"
+        "name":"kitchen",
+                "images": ["/images/categories/6.svg"]
+
     },{
         "id":"4",
-        "name":"fashion"
+        "name":"fashion",
+                "images": ["/images/categories/6.svg"]
+
     },{
         "id": "5",
-        "name":"electronics"
+        "name":"electronics",
+                "images": ["/images/categories/6.svg"]
+
     },{
         "id":"6",
-        "name":"beauty"
+        "name":"beauty",
+                "images": ["/images/categories/6.svg"]
+
     },{
         "id":"7",
-        "name":"home"
+        "name":"home",
+                "images": ["/images/categories/6.svg"]
+
     },{
         "id":"8",
-        "name":"sports"
+        "name":"sports",
+                "images": ["/images/categories/6.svg"]
+
     }
 ]
