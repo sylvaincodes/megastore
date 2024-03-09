@@ -1,4 +1,3 @@
-"use client"
 import { LayoutOne } from '@/components/layouts/layout-one'
 import { Card } from '@/components/ui/card/card';
 import { Container } from '@/components/ui/container';
@@ -7,7 +6,7 @@ import { CartItem } from './components/cart-item';
 import { Summary } from './components/summary';
 import useCart from '@/hooks/use-cart';
 import { mergeOpenGraph } from "@/lib/mergeOpenGraph";
-import { Metadata } from 'next';
+import { Metadata } from "next";
 
 export default function Page() {
   const cart = useCart();
