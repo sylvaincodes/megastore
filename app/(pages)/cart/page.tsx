@@ -6,6 +6,7 @@ import React from 'react'
 import { CartItem } from './components/cart-item';
 import { Summary } from './components/summary';
 import useCart from '@/hooks/use-cart';
+import { mergeOpenGraph } from "@/lib/mergeOpenGraph";
 
 export default function Page() {
   const cart = useCart();
@@ -43,4 +44,13 @@ export default function Page() {
 
     </LayoutOne>
   )
+}
+
+export const metadata: Metadata = {
+  title: 'Cart page',
+  description: 'Buy more than you think',
+  openGraph: mergeOpenGraph({
+    title: 'Cart page',
+    url: '/',
+  }),
 }
