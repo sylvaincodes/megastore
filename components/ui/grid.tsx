@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Grid = ({children, classPlus}: {children: React.ReactNode; classPlus?: string;}) => {
   return (
-    <div className={cn('grid  h-full',classPlus)}>
+    <div className={cn('grid',classPlus)}>
         {children}
     </div>
   )

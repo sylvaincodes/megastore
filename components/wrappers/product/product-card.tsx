@@ -27,17 +27,17 @@ export const ProductCard = ({item}: {item: Product}) => {
 
         <div className=' px-2 py-1 gap-y-2 flex flex-col'>
             <h1 className='text-md font-normal capitalize'>{ item.name.slice(0,20) }</h1>
-            <div className='inline-flex gap-x-4 justify-start w-[100px]'>  
-                <span className='text-md font-bold w-full'>
+            <div className='inline-flex gap-x-4 justify-start w-full'>  
+                <span className='text-sm font-bold w-full'>
                     <SmartNumber value={getNewPrice(item.price,item.discount)}/>
                 </span> 
-                <span className='text-md text-text_gray font-medium line-through'>                    
+                <span className='text-sm text-text_gray font-medium line-through w-full'>                    
                     <SmartNumber value={item.price}/>
                 </span>  
             </div>
         </div>
 
-        <div className='p-2 grid grid-cols-3 text-green-600'>
+        {/* <div className='p-2 grid grid-cols-3 text-green-600'>
             <div className='text-md font-medium flex items-center'>
                  Save 
             </div>
@@ -47,7 +47,8 @@ export const ProductCard = ({item}: {item: Product}) => {
                 
             <SmartNumber  value={getDiscountPrice(item.price,item.discount)}/>
             </div>
-        </div>
+        </div> */}
+
     </div>
   )
 }

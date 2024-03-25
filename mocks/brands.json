@@ -7,7 +7,8 @@
         "product":["/images/brands/1_1.svg"],
         "images":["/images/brands/1_2.svg"],
         "text":"Up to 80% OFF",
-        "color":"#494949"
+        "color":"#494949",
+        "type": "brand"
     }, {
         "id":"2",
         "name":"realme",
@@ -16,7 +17,8 @@
         "product":["/images/brands/2_1.svg"],
         "images":["/images/brands/2_2.svg"],
         "text":"Up to 80% OFF",
-        "color":"#FFF3CC"
+        "color":"#FFF3CC",
+        "type": "brand"
     },{
         "id":"3",
         "name":"xiami",
@@ -24,9 +26,9 @@
         "icon": ["/images/brands/3.svg"],
         "product":["/images/brands/3_1.svg"],
         "images":["/images/brands/3_2.svg"],
-
         "text":"Up to 80% OFF",
-        "color":"#FFECDF"
+        "color":"#FFECDF",
+        "type": "brand"
 
     }
 ]

@@ -5,8 +5,6 @@ import Image from 'next/image'
 import React from 'react'
 import useCart from '@/hooks/use-cart'
 
-
-
 export const CartItem = ({item}: {item:Product}) => {
 
   const cart = useCart();
@@ -14,7 +12,6 @@ export const CartItem = ({item}: {item:Product}) => {
   const onRemove = (item: Product) => {
     cart.removeItem(item.id);
   };
-
 
   return (
     <Card>

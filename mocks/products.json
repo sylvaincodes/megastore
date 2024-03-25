@@ -2,49 +2,234 @@
     {
       "id":"1",
       "name": "galaxy s22 ultra",
-      "price": 329.99,
-      "category": "phones",
+      "price": 29.99,
+      "category": "electronics",
+      "brand": "realme",
       "color": "white",
       "size": "8GB|128GB",
       "images" : ["/images/products/1.png"],
-      "discount": 30
-    },{
+      "discount": 0,
+      "ratings": 4
+    },
+    {
       "id":"1",
       "name": "galaxy m13",
       "price": 104.99,
-      "category": "phones",
+      "category": "electronics",
+            "brand": "realme",
+
       "color": "white",
       "size": "4GB|64GB",
       "images" : ["/images/products/2.png"],
-      "discount": 20
-    },{
+      "discount": 20,
+            "ratings": 4
+
+    },
+    {
       "id":"3",
       "name": "galaxy m33",
       "price": 169.99,
-      "category": "phones",
+      "category": "electronics",
+            "brand": "iphone",
+
       "color": "white",
       "size": "4GB|64GB",
       "images" : ["/images/products/3.png"],
-      "discount": 50
+      "discount": 50,
+            "ratings": 4
+
     }
     ,{
       "id":"4",
       "name": "galaxy m53",
-      "price": 319.99,
-      "category": "phones",
+      "price": 19.99,
+      "category": "electronics",
+            "brand": "iphone",
+
       "color": "gold",
       "size": "4GB|64GB",
       "images" : ["/images/products/4.svg"],
-      "discount": 70
+      "discount": 70,
+            "ratings": 4
+
     },{
       "id":"5",
       "name": "galaxy s22 ultra",
       "price": 679.99,
-      "category": "phones",
+      "category": "electronics",
+            "brand": "iphone",
+
       "color": "green",
       "size": "4GB|64GB",
       "images" : ["/images/products/5.svg"],
-      "discount": 50
+      "discount": 50,
+            "ratings": 4
+
+    },
+    {
+      "id":"6",
+      "name": "galaxy s22 ultra",
+      "price": 1679.99,
+      "category": "electronics",
+            "brand": "realme",
+
+      "color": "green",
+      "size": "4GB|64GB",
+      "images" : ["/images/products/5.svg"],
+      "discount": 50,
+            "ratings": 4
+
+    },
+    {
+      "id":"7",
+      "name": "galaxy s22 ultra",
+      "price": 67.99,
+      "category": "electronics",
+      "color": "green",
+      "size": "4GB|64GB",
+      "images" : ["/images/products/5.svg"],
+      "discount": 50,
+            "ratings": 4
+
+    },
+    {
+      "id":"8",
+      "name": "galaxy s22 ultra",
+      "price": 9.99,
+      "category": "electronics",
+            "brand": "iphone",
+
+      "color": "green",
+      "size": "4GB|64GB",
+      "images" : ["/images/products/5.svg"],
+      "discount": 50,
+            "ratings": 4
+
+    },
+    {
+      "id":"9",
+      "name": "galaxy s22 ultra",
+      "price": 679.99,
+      "category": "electronics",
+            "brand": "iphone",
+
+      "color": "green",
+      "size": "4GB|64GB",
+      "images" : ["/images/products/5.svg"],
+      "discount": 50,
+            "ratings": 4
+
+    },
+    {
+      "id":"10",
+      "name": "galaxy s22 ultra",
+      "price": 279.99,
+      "category": "electronics",
+            "brand": "iphone",
+
+      "color": "green",
+      "size": "4GB|64GB",
+      "images" : ["/images/products/5.svg"],
+      "discount": 0,
+            "ratings": 4
+
+    },
+    {
+      "id":"11",
+      "name": "galaxy s22 ultra",
+      "price": 679.99,
+      "category": "electronics",
+            "brand": "realme",
+
+      "color": "green",
+      "size": "4GB|64GB",
+      "images" : ["/images/products/5.svg"],
+      "discount": 50,
+            "ratings": 4
+
+    },
+    {
+      "id":"12",
+      "name": "galaxy s22 ultra",
+      "price": 679.99,
+      "category": "electronics",
+            "brand": "realme",
+
+      "color": "green",
+      "size": "4GB|64GB",
+      "images" : ["/images/products/5.svg"],
+      "discount": 50,
+            "ratings": 4
+
+    },
+    {
+      "id":"13",
+      "name": "galaxy s22 ultra",
+      "price": 679.99,
+      "category": "electronics",
+            "brand": "realme",
+
+      "color": "green",
+      "size": "4GB|64GB",
+      "images" : ["/images/products/5.svg"],
+      "discount": 50,
+            "ratings": 4
+
+    },
+    {
+      "id":"14",
+      "name": "galaxy s22 ultra",
+      "price": 679.99,
+      "category": "electronics",
+            "brand": "realme",
+
+      "color": "green",
+      "size": "4GB|64GB",
+      "images" : ["/images/products/5.svg"],
+      "discount": 50,
+            "ratings": 2
+
+    },
+    {
+      "id":"15",
+      "name": "galaxy s22 ultra",
+      "price": 679.99,
+      "category": "electronics",
+            "brand": "realme",
+
+      "color": "green",
+      "size": "4GB|64GB",
+      "images" : ["/images/products/5.svg"],
+      "discount": 50,
+            "ratings": 4.5
+
+    },
+    {
+      "id":"16",
+      "name": "galaxy s22 ultra",
+      "price": 679.99,
+      "category": "electronics",
+            "brand": "xiami",
+
+      "color": "green",
+      "size": "4GB|64GB",
+      "images" : ["/images/products/5.svg"],
+      "discount": 50,
+      "ratings": 3.5
+    }
+    ,
+    {
+      "id":"17",
+      "name": "galaxy s22 ultra",
+      "price": 679.99,
+      "category": "electronics",
+            "brand": "xiami",
+
+      "color": "green",
+      "size": "4GB|64GB",
+      "images" : ["/images/products/5.svg"],
+      "discount": 50,
+      "ratings": 4.5
     }
 
   ]

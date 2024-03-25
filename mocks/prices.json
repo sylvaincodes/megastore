@@ -1,0 +1,27 @@
+[
+    {
+      "id":"1",
+      "name": "under 50",
+      "type": "price"
+    },{
+      "id":"2",
+      "name": "50 to 100",
+      "type": "price"
+    },{
+      "id":"3",
+      "name": "100 to 150",
+      "type": "price"
+    },{
+      "id":"4",
+      "name": "150 to 200",
+      "type": "price"
+    },{
+      "id":"5",
+      "name": "200 to 300",
+      "type": "price"
+    },{
+      "id":"6",
+      "name": "over 1000",
+      "type": "price"
+    }
+  ]

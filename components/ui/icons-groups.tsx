@@ -54,11 +54,12 @@ export const IconsGroup = ({openSearch,setOpenSearch,openCart,setOpenCart}: {ope
                         </div>
 
                       {/* cart menu  */}
-                      <div className={`border z-20
-                              border-border_gray shadow-lg absolute top-[5.6rem] right-[12rem] 
-                              min-w-[320px] h-fit transition-all ease-in duration-800 ${ openCart ? "visible translate-y-0": "z-0 invisible -translate-y-full"}`}>   
+                      <div className={`grid grid-rows-[50px_1fr_50px_200px] border z-20 
+                              border-border_gray shadow-lg fixed top-0 right-0  min-h-screen
+                              min-w-[320px] md:w-[400px] h-fit transition-all ease-in duration-800 
+                              ${ openCart ? "visible translate-x-0": "z-0 invisible translate-x-full"}`}>   
                               
-                              <div className='bg-bg_gray px-4 py-2'>
+                              <div className='bg-bg_gray px-4 py-2 '>
                                   <div className='flex gap-x-8 w-full'>
                                     
                                     <div className='flex items-center justify-between gap-x-4'>
@@ -75,32 +76,37 @@ export const IconsGroup = ({openSearch,setOpenSearch,openCart,setOpenCart}: {ope
                                   </div>
                               </div>
 
-                              <div className='p-4 flex flex-col space-y-8 max-h-[200px] overflow-auto bg-white'>
+                              <div className='p-4 flex flex-col space-y-8 max-h-[600px] overflow-auto bg-white'>
                                 
                                 {
 
                                   cart.items.length > 0 ?
                                   cart.items.map((item, idx) =>{
-                                    return <div key={idx} className='flex gap-x-4 bg-white py-4'>
+                                    return <div key={idx} className='flex gap-x-4 bg-white py-4 border-b border-gray-300'>
                                     <div>
                                       <Image src={item.images[0]} 
                                       width="100" height="140" alt="product" />
                                     </div>
-                                    <div className='flex flex-col gap-y-4 py-2'>
+                                    <div className='flex flex-col gap-y-4 py-4'>
                                         <div className='font-extrabold'>
                                           ${item.price}
                                         </div>
-                                        <div className='text-sm text-text_gray'>
-                                          <p >{item.name}</p>
+                                        <div className='text-sm text-text_gray flex flex-col gap-y-1'>
+                                          <p className="capitalize">{item.name}</p>
                                           <p className='inline-flex gap-x-8'> 
                                           <span>{item.color}</span>
                                             <span>{item.size}</span>
                                           </p>
-                                          <p>Qty: 1</p>
-                                          <button onClick={ () => deleteItem(item)} className='ms-auto w-full hover:primary-900'>
-
-                                          <Trash size={18} color='gray' className="ms-auto " />
-                                          </button>
+                                          <div className='flex justify-between'> 
+                                            <div className=''>
+                                            Qty: 1 
+                                            </div> 
+                                            <div>
+                                              <button onClick={ () => deleteItem(item)} className='ms-auto w-full'>
+                                                <Trash size={18} className="ms-auto text-gray-700 hover:text-red-800" />
+                                              </button>
+                                            </div>
+                                          </div>
                                         </div>
                                     </div>
                                 </div> 

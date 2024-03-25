@@ -10,18 +10,6 @@ import { MobileMenu } from './mobile-menu'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 
-
-
-const cart =[
-  {
-    product: "caudalie beauty",
-    price: 29.99,
-    color: "white",
-    size: "x"
-  }
-]
-
-
 export const Navbar = () => {
 
 

@@ -2,41 +2,49 @@
     {
         "id":"1",
         "name":"groceries",
-        "images": ["/images/categories/6.svg"]
+        "images": ["/images/categories/6.svg"],
+        "type": "category"
     },{
         "id":"2",
         "name":"fruits",
-        "images": ["/images/categories/6.svg"]
+        "images": ["/images/categories/6.svg"],
+        "type": "category"
 
     },{
         "id":"3",
         "name":"kitchen",
-                "images": ["/images/categories/6.svg"]
+                "images": ["/images/categories/6.svg"],
+                "type": "category"
 
     },{
         "id":"4",
         "name":"fashion",
-                "images": ["/images/categories/6.svg"]
+                "images": ["/images/categories/6.svg"],
+                "type": "category"
 
     },{
         "id": "5",
         "name":"electronics",
-                "images": ["/images/categories/6.svg"]
+                "images": ["/images/categories/6.svg"],
+                "type": "category"
 
     },{
         "id":"6",
         "name":"beauty",
-                "images": ["/images/categories/6.svg"]
+                "images": ["/images/categories/6.svg"],
+                "type": "category"
 
     },{
         "id":"7",
         "name":"home",
-                "images": ["/images/categories/6.svg"]
+                "images": ["/images/categories/6.svg"],
+                "type": "category"
 
     },{
         "id":"8",
         "name":"sports",
-                "images": ["/images/categories/6.svg"]
+                "images": ["/images/categories/6.svg"],
+                "type": "category"
 
     }
 ]

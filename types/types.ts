@@ -5,14 +5,23 @@ export interface Product{
     images: Array<string>;
     category: string;
     color: string;
+    brand: string;
     size: string;
     discount: number;
+    ratings: number;
+    createdAt: any;
 }
 
 export interface Category {
     id: string;
     name: string;
     images: Array<string>;
+}
+
+export interface WidgetTypes {
+    id: string;
+    name: string;
+    type: string;
 }
 
 export interface Daily {

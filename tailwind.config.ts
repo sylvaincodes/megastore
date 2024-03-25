@@ -24,6 +24,7 @@ const config = {
         border_gray: '#D9D9D9',
         text_gray: '#666666',
         transparent: 'transparent',
+        red: colors.red,
         green: colors.green,
         gray: colors.gray,
       black: '#121212',
@@ -76,6 +77,7 @@ const config = {
         // => @media (min-width: 1440px) { ... }
       },
     },
+    
     extend: {
       keyframes: {
         "accordion-down": {
