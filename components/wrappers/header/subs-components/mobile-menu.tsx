@@ -20,7 +20,7 @@ export const MobileMenu = ({
         <Image src="/icons/menu.svg" width="26" height="18" alt="humbergeur" />
       </button>
 
-      <Logo active={false} />
+      <Logo classPlus="hidden lg:block" />
 
       {/* mobile menu */}
       <div
@@ -37,7 +37,7 @@ export const MobileMenu = ({
               </button>
             </div>
             
-            <Logo active={false} />
+            <Logo classPlus="hidden lg:block" />
 
           </div>
 

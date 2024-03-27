@@ -7,7 +7,7 @@ import sizes from '@/mocks/sizes.json'
 import colors from '@/mocks/colors.json'
 import { Widget } from './widget'
 
-export const LeftSidebar = ({getSortParams}:{getSortParams: (s1: string ,s2: string) => void  }) => {
+export const LeftSidebar = ({getSortParams, params}:{getSortParams: (s1: string ,s2: string) => void; params?: any  }) => {
   
   const handleclick = (item: string) => {
       getSortParams(item,item)
@@ -26,11 +26,10 @@ export const LeftSidebar = ({getSortParams}:{getSortParams: (s1: string ,s2: str
 
             <Divider/>
 
-            <Widget  data={categories} getSortParams={getSortParams} />
-            <Widget  data={brands} getSortParams={getSortParams}/>
-            <Widget  data={sizes} getSortParams={getSortParams}/>
-            <Widget  data={prices} getSortParams={getSortParams}/>
-            <Widget  data={colors} getSortParams={getSortParams}/>
+            <Widget  data={categories} getSortParams={getSortParams}   params={params} />
+            <Widget  data={sizes} getSortParams={getSortParams}  params={params}/>
+            <Widget  data={prices} getSortParams={getSortParams} params={params}/>
+            <Widget  data={colors} getSortParams={getSortParams} params={params}/>
             
         </div>
 

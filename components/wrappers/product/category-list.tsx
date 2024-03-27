@@ -2,7 +2,7 @@ import { Container } from '@/components/ui/container'
 import React from 'react'
 import { Heading } from '../heading/heading'
 import { CategoryCard } from './category-card'
-import categories from '@/mocks/categoriesList.json';
+import categories from '@/mocks/categories.json';
 import {
   Carousel,
   CarouselContent

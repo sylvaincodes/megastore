@@ -8,11 +8,11 @@
         "name": "popularity",
         "type": "filter"
     },{
-        "id":"1",
-        "name": "price low to hight ",
+        "id":"3",
+        "name": "price low to high ",
         "type": "filter"
     },{
-        "id":"1",
+        "id":"4",
         "name": "price high to low",
         "type": "filter"
     }

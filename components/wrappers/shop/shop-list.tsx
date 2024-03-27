@@ -12,12 +12,12 @@ import {
 import { getSortedProducts } from '@/lib/products'
 import { TopBar } from './top-bar'
 import { ShopProducts } from './shop-products'
-
+import { Product } from '@/types/types'
 
 export const ShopList =({
-    searchParams,
+    searchParams, params
 }: {
-  searchParams: any;
+  searchParams: any; params?: any
 }) => {
   
   const [sortType, setSortType] = useState("");
@@ -25,8 +25,8 @@ export const ShopList =({
   const [filterSortType, setFilterSortType] = useState("");
   const [filterSortValue, setFilterSortValue] = useState("");
   const [sortedProducts, setSortedProducts] = useState([]);
-  const [currentData, setCurrentData] = useState([]);
-
+  const [currentData, setCurrentData] = useState<Array<Product>>([]);
+  
   const getSortParams = (sortType: any, sortValue: any) => {
     setSortType(sortType);
     setSortValue(sortValue);
@@ -37,28 +37,26 @@ export const ShopList =({
     setFilterSortValue(sortValue);
   };
 
-  // Set the number of posts to be displayed per page
+  // Pagination
 	const POSTS_PER_PAGE = 12;
-
-  // Fetch the current page from the query parameters, defaulting to 1 if it doesn't exist
   const page = searchParams.page;
   const pageIndex = parseInt(page, 10) || 1;
-
-	// Define the parameters for fetching posts based on the current page
-	const params = {
+	const param = {
 		pageIndex: (pageIndex - 1) * POSTS_PER_PAGE,
 		limit: pageIndex * POSTS_PER_PAGE,
 	};
 
-  const filterListProducts = currentData.slice(
-    params.pageIndex,
-    params.limit,
+  // Filter categories
+  const filterProducts = params ?  currentData.filter( item =>  item.category === params.category ) : currentData;
+  const filterListProducts = filterProducts.slice(
+    param.pageIndex,
+    param.limit,
   );
 
-		// Check if the current page is the first or the last
-    const isFirstPage = params.pageIndex < 2;
-    const isLastPage = filterListProducts.length < POSTS_PER_PAGE;
-    
+	// Check if the current page is the first or the last
+  const isFirstPage = param.pageIndex < 2;
+  const isLastPage = filterListProducts.length < POSTS_PER_PAGE;
+
   useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -76,7 +74,7 @@ export const ShopList =({
 
     setCurrentData(sortedProducts);
   }, [ sortType, sortValue, filterSortType, filterSortValue]);
-
+  
   return (
     <section>
         <Container>
@@ -90,13 +88,13 @@ export const ShopList =({
                     <Sheet>
                         <SheetTrigger>Open</SheetTrigger>
                         <SheetContent>
-                            <LeftSidebar  getSortParams={getSortParams}/>
+                            <LeftSidebar getSortParams={getSortParams} params={params} />
                         </SheetContent>
                     </Sheet>
                 </div>
 
                 <div className='hidden lg:flex'>
-                    <LeftSidebar getSortParams={getSortParams}/>
+                    <LeftSidebar getSortParams={getSortParams} params={params}/>
                 </div>
                     
                 <ShopProducts 

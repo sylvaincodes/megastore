@@ -11,12 +11,12 @@ export const CategoryItem = ({item}: {item: Category } ) => {
 
     <CarouselItem className="basis-2/12">
 
-          <Link href={`/category/${item.name}`} className='rounded-full flex justify-between items-center bg-bg_primary_light snap-center cursor-pointer hover:bg-bg_primary group transition-all'>
+          <Link href={`/search/${item.name}`} className='rounded-full flex justify-between items-center bg-bg_primary_light snap-center cursor-pointer hover:bg-bg_primary group transition-all'>
              <span className='text-sm px-4 py-2 rounded-lg capitalize text-bg_primary group-hover:text-white'>
                 { item.name }
              </span>
             <ChevronDown className='text-bg_primary group-hover:text-white me-4' size={18} />
-         </Link> 
+          </Link> 
 
     </CarouselItem>
 

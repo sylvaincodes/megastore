@@ -16,7 +16,7 @@ export const SearchItem = ({
       {/* mobile menu */}
       <div
         className={`shadow-lg fixed p-4  left-0 top-0 min-h-screen 
-        min-w-full bg-white transition-all easy-out duration-800 ${
+        min-w-full bg-white transition-all easy-out duration-800 z-20 ${
           openSearch ? "translate-x-0" : "-translate-x-full"
         } `}
       >

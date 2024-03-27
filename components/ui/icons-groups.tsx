@@ -9,7 +9,7 @@ export const IconsGroup = ({openSearch,setOpenSearch,openCart,setOpenCart}: {ope
 
   const cart = useCart();
   const totalPrice = cart.items.reduce((total, item) => {
-    return total + Number(item.price);
+    return total + Math.round(item.price);
   }, 0);
   
   const deleteItem = (item: Product) => {

@@ -10,7 +10,7 @@ type Object ={
     type: string;
 }
 
-export const Widget = ({data,getSortParams}: {data: Array<Object>; getSortParams: (s1: string ,s2: string) => void}) => {
+export const Widget = ({data,getSortParams, params}: {data: Array<Object>; getSortParams: (s1: string ,s2: string) => void ; params: any}) => {
   
     const handleclick = (item: WidgetTypes ) => {
         let newName = item.name.replaceAll(" ", "").toLowerCase();

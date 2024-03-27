@@ -9,7 +9,8 @@
       "size": "8GB|128GB",
       "images" : ["/images/products/1.png"],
       "discount": 0,
-      "ratings": 4
+      "ratings": 4,
+      "createdAt": "2022-10-10"
     },
     {
       "id":"1",
@@ -22,7 +23,8 @@
       "size": "4GB|64GB",
       "images" : ["/images/products/2.png"],
       "discount": 20,
-            "ratings": 4
+            "ratings": 4,
+            "createdAt": "2022-10-10"
 
     },
     {
@@ -36,7 +38,8 @@
       "size": "4GB|64GB",
       "images" : ["/images/products/3.png"],
       "discount": 50,
-            "ratings": 4
+            "ratings": 4,
+            "createdAt": "2022-10-10"
 
     }
     ,{
@@ -50,7 +53,8 @@
       "size": "4GB|64GB",
       "images" : ["/images/products/4.svg"],
       "discount": 70,
-            "ratings": 4
+            "ratings": 4,
+            "createdAt": "2022-10-10"
 
     },{
       "id":"5",
@@ -63,7 +67,8 @@
       "size": "4GB|64GB",
       "images" : ["/images/products/5.svg"],
       "discount": 50,
-            "ratings": 4
+            "ratings": 4,
+            "createdAt": "2022-10-10"
 
     },
     {
@@ -77,7 +82,8 @@
       "size": "4GB|64GB",
       "images" : ["/images/products/5.svg"],
       "discount": 50,
-            "ratings": 4
+            "ratings": 4,
+            "createdAt": "2022-10-10"
 
     },
     {
@@ -89,7 +95,8 @@
       "size": "4GB|64GB",
       "images" : ["/images/products/5.svg"],
       "discount": 50,
-            "ratings": 4
+            "ratings": 4,
+            "createdAt": "2022-10-10"
 
     },
     {
@@ -103,7 +110,8 @@
       "size": "4GB|64GB",
       "images" : ["/images/products/5.svg"],
       "discount": 50,
-            "ratings": 4
+            "ratings": 4,
+            "createdAt": "2022-10-10"
 
     },
     {
@@ -117,7 +125,8 @@
       "size": "4GB|64GB",
       "images" : ["/images/products/5.svg"],
       "discount": 50,
-            "ratings": 4
+            "ratings": 4,
+            "createdAt": "2022-10-10"
 
     },
     {
@@ -131,7 +140,8 @@
       "size": "4GB|64GB",
       "images" : ["/images/products/5.svg"],
       "discount": 0,
-            "ratings": 4
+            "ratings": 4,
+            "createdAt": "2022-10-10"
 
     },
     {
@@ -145,7 +155,8 @@
       "size": "4GB|64GB",
       "images" : ["/images/products/5.svg"],
       "discount": 50,
-            "ratings": 4
+            "ratings": 4,
+            "createdAt": "2022-10-10"
 
     },
     {
@@ -159,7 +170,8 @@
       "size": "4GB|64GB",
       "images" : ["/images/products/5.svg"],
       "discount": 50,
-            "ratings": 4
+            "ratings": 4,
+            "createdAt": "2022-10-10"
 
     },
     {
@@ -173,7 +185,8 @@
       "size": "4GB|64GB",
       "images" : ["/images/products/5.svg"],
       "discount": 50,
-            "ratings": 4
+            "ratings": 4,
+            "createdAt": "2022-10-10"
 
     },
     {
@@ -187,7 +200,8 @@
       "size": "4GB|64GB",
       "images" : ["/images/products/5.svg"],
       "discount": 50,
-            "ratings": 2
+            "ratings": 2,
+            "createdAt": "2022-10-10"
 
     },
     {
@@ -201,7 +215,8 @@
       "size": "4GB|64GB",
       "images" : ["/images/products/5.svg"],
       "discount": 50,
-            "ratings": 4.5
+            "ratings": 4.5,
+            "createdAt": "2022-10-10"
 
     },
     {
@@ -215,7 +230,8 @@
       "size": "4GB|64GB",
       "images" : ["/images/products/5.svg"],
       "discount": 50,
-      "ratings": 3.5
+      "ratings": 3.5,
+      "createdAt": "2022-10-10"
     }
     ,
     {
@@ -229,7 +245,8 @@
       "size": "4GB|64GB",
       "images" : ["/images/products/5.svg"],
       "discount": 50,
-      "ratings": 4.5
+      "ratings": 4.5,
+      "createdAt": "2022-10-10"
     }
 
   ]

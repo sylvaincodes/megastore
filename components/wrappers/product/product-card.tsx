@@ -15,7 +15,7 @@ export const ProductCard = ({item}: {item: Product}) => {
     
   return (
     <div className='flex flex-col space-y-4 rounded-2xl cursor-pointer 
-     border-2 border-border_gray hover:border-bg_primary' onClick={() => addItem()}>
+     border-2 border-border_gray hover:border-bg_primary  lg:w-full self-center' onClick={() => addItem()}>
 
         <div className='relative bg-bg_gray max-h-[200px] max-w-full flex 
             justify-center rounded-2xl'>
@@ -25,7 +25,7 @@ export const ProductCard = ({item}: {item: Product}) => {
             </div>
         </div>
 
-        <div className=' px-2 py-1 gap-y-2 flex flex-col'>
+        <div className='px-4 py-1 gap-y-2 flex flex-col'>
             <h1 className='text-md font-normal capitalize'>{ item.name.slice(0,20) }</h1>
             <div className='inline-flex gap-x-4 justify-start w-full'>  
                 <span className='text-sm font-bold w-full'>

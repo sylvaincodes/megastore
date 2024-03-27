@@ -17,14 +17,14 @@ export default function Pagination({ pageIndex, isFirstPage, isLastPage }: { pag
     params.set("page", (pageIndex + 1).toString());
     const query = params.toString();
 
-    router.push(`/products?${query}`);
+    router.push(`/search?${query}`);
   };
 
   const handlePrevPage = () => {
     params.set("page", (pageIndex - 1).toString());
     const query = params.toString();
 
-    router.push(`/products?${query}`);
+    router.push(`/search?${query}`);
   };
 
   return (

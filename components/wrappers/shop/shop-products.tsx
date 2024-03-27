@@ -8,7 +8,7 @@ import Pagination from '@/components/ui/pagination/custom-pagination-two'
 import { LayoutTemplate } from 'lucide-react'
 
 export const ShopProducts = ({ products,pageIndex,isFirstPage,isLastPage }:
-  { products: Array<Product>; pageIndex: number; isFirstPage: boolean; isLastPage: boolean }) => {
+  { products: Array<Product>; pageIndex: number; isFirstPage: boolean; isLastPage: boolean; }) => {
 
     return (
     <div className='flex flex-col gap-12'>
